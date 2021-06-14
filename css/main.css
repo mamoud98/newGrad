@@ -1,0 +1,360 @@
+/* start first pag */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #314f6d;
+  overflow-x: hidden;
+}
+.vh-80 {
+  height: 80vh;
+}
+.bg-black-color {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 55px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 30px;
+  color: #fff;
+}
+.bg-primer-color {
+  background-color: #314f6d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+}
+.primer-color {
+  color: #4e529e;
+}
+/*Start header*/
+.header {
+  background-color: #fff;
+  width: 100vw;
+  color: #4e529e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: rgba(63, 84, 108, 0.33);
+}
+@media (max-width: 575.98px) {
+  .header .toknow {
+    font-size: 16px;
+  }
+  .logo {
+    display: none;
+  }
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+/*End header*/
+/* Start footer */
+.footer {
+  background-color: #fff;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer span {
+  color: #4e529e;
+  font-size: 25px;
+  font-weight: bold;
+}
+/* End footer */
+.Home-text {
+  line-height: 2;
+}
+.Home-bg,
+.bg-tow {
+  background-image: url(../img/Repeat\ Grid\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100vw;
+  opacity: 0.9;
+}
+.Home-bg .Home-Wight-bg {
+  background-color: rgba(253, 253, 253, 0.8);
+  border-radius: 20px;
+  padding: 22px 40px;
+}
+
+.Home-bg .Home-Wight-bg hr {
+  width: 48.8vw;
+  border: 1px solid #000;
+  background-color: #000;
+}
+.Home-bg .Home-Wight-bg p {
+  font-size: 20px;
+  padding-top: 15px;
+}
+.Home-bg .Home-Wight-bg a {
+  font-size: 20px;
+  color: #000;
+}
+.Home-bg .Home-Wight-bg a li {
+  padding-top: 20px;
+}
+.header-title {
+  font-family: "Roboto", sans-serif;
+}
+.btn-background {
+  background-color: #314f6d;
+  border: none;
+}
+/* End first pag */
+/* start tow */
+.percentage-f {
+  position: relative;
+}
+.percentage {
+  position: absolute;
+  left: 15px;
+  top: 37px;
+  color: #000;
+  font-size: 18px;
+}
+.form-height {
+  max-height: 100%;
+  min-height: 100vh;
+}
+.back {
+  outline: none;
+  color: #fff;
+  background-color: #314f6d;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-bottom: 14px;
+  margin-right: -35px;
+  letter-spacing: 1px;
+}
+/* End tow */
+
+/* start questions pag */
+.d-R {
+  direction: rtl;
+}
+
+.data {
+  position: relative;
+  font-weight: bold;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding-top: 70px;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 960px) {
+  .data {
+    margin: 30vh auto;
+    padding: 150px 20px;
+  }
+}
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+.check-stat {
+  border-bottom: 1px solid #bdc3c7;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+.check-stat:hover {
+  background-color: #dfe6e9;
+}
+
+.btn-info {
+  background-color: #70a1ff;
+  border-color: #70a1ff;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:not(:disabled):not(.disabled).active,
+.btn-info:not(:disabled):not(.disabled):active,
+.show > .btn-info.dropdown-toggle {
+  background-color: #b86fa2;
+  border-color: #b86fa2;
+  transition: 0.25s;
+}
+.col-12 {
+  margin-bottom: 50px;
+}
+
+.data {
+  /* padding: 18vh 20px; */
+  direction: rtl;
+}
+
+.check-stat {
+  text-align: right !important;
+}
+
+@media (max-width: 960px) {
+  .data {
+    margin: 20vh auto;
+    padding: 150px 20px;
+  }
+}
+.prargraf {
+  font-size: 20px;
+}
+.prargraf hr {
+  border-color: #000;
+  border-width: 1px;
+}
+.qu-back {
+  outline: none;
+  color: #fff;
+  background-color: #314f6d;
+  border: none;
+  padding: 7px 30px;
+  border-radius: 20px;
+  position: absolute;
+  right: 80px;
+  letter-spacing: 1px;
+}
+.qu-back a {
+  color: #fff;
+}
+.qu-back a:hover {
+  text-decoration: none;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .qu-back {
+    top: 20px;
+    right: 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  .qu-back {
+    top: 20px;
+    right: 20px;
+  }
+}
+/* pagnation  */
+.tab {
+  display: none;
+  text-align: center;
+}
+
+#regForm {
+  margin-top: 15px;
+}
+/* pagnation  */
+
+.steps {
+  direction: ltr;
+}
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4e529e;
+}
+#regForm button {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 10px 0px;
+  width: 100px;
+  background: transparent;
+  border-color: #4e529e;
+  border-radius: 25px;
+  color: #4e529e;
+  font-weight: bold;
+}
+
+/* End questions pag */
+
+/* Start result pag */
+.w-66 {
+  width: 66vw;
+}
+.font-bold {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.font {
+  font-family: "Times New Roman", Times, serif !important;
+}
+.m-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mbti-img {
+  height: 56px;
+}
+.j-f {
+  justify-content: space-evenly;
+}
+
+@media (max-width: 720px) {
+  .j-f {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+.dataa {
+  position: relative;
+  font-weight: bold;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+  direction: rtl;
+}
+.h-80 {
+  height: 80px;
+}
+.res-back {
+  outline: none;
+  color: #fff;
+  background-color: #314f6d;
+  border: none;
+  padding: 7px 30px;
+  border-radius: 20px;
+  position: absolute;
+  right: 80px;
+  letter-spacing: 1px;
+  top: 20px;
+}
+.res-back a {
+  color: #fff;
+}
+/* End result pag */
